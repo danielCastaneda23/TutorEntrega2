@@ -1,0 +1,46 @@
+.itm-count-btn{
+    position: relative;
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3ch;
+    color: rgb(112, 199, 242);
+}
+
+.itm-count-container{
+    display: flex inline-block;
+    justify-content: center;
+    margin-top: 100px;
+
+    span{
+        border: 1px solid;
+        border-color: gray;
+        border-radius: 5px;
+        padding-left:100px ;
+        padding-right:100px ;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-right: -35px;
+        margin-left: -35px;
+    }
+    p{
+        font-size: 1.5ch;
+        margin-left: -140px;
+        color: gray;
+    }
+    div{
+        button{
+            margin-top: 10px;
+            margin-right: 5px;
+            padding-left:40px ;
+            padding-right:40px ;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border: 2px solid;
+            border-color: rgb(112, 199, 242);
+            border-radius: 5px;
+            color: rgb(112, 199, 242);
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+
+}
